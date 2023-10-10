@@ -1,20 +1,20 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker;
+namespace Oskonnikov\EmailChecker;
 
 class EmailCheckerManager {
 
     /**
      * The email checker instance.
      *
-     * @var \Tintnaingwin\EmailCheckerPHP\EmailChecker
+     * @var \Oskonnikov\EmailCheckerPHP\EmailChecker
      */
     protected $checker;
 
     /**
      * Create a new email checker instance.
      *
-     * @param \Tintnaingwin\EmailCheckerPHP\EmailChecker $checker
+     * @param \Oskonnikov\EmailCheckerPHP\EmailChecker $checker
      * @return void
      */
     public function __construct($checker)

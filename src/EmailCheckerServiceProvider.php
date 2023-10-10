@@ -1,11 +1,11 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker;
+namespace Oskonnikov\EmailChecker;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Support\Facades\Validator;
-use Tintnaingwin\EmailCheckerPHP\EmailChecker as EmailCheckerPHP;
-use Tintnaingwin\EmailChecker\Facades\EmailChecker;
+use Oskonnikov\EmailCheckerPHP\EmailChecker as EmailCheckerPHP;
+use Oskonnikov\EmailChecker\Facades\EmailChecker;
 
 class EmailCheckerServiceProvider extends ServiceProvider
 {

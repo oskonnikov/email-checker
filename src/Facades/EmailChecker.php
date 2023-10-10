@@ -1,13 +1,13 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker\Facades;
+namespace Oskonnikov\EmailChecker\Facades;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * @method bool check(string $email)
  *
- * @see \Tintnaingwin\EmailChecker\EmailCheckerManager
+ * @see \Oskonnikov\EmailChecker\EmailCheckerManager
  */
 class EmailChecker extends Facade
 {

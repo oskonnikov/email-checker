@@ -1,8 +1,8 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker\Tests;
+namespace Oskonnikov\EmailChecker\Tests;
 
-use Tintnaingwin\EmailChecker\Facades\EmailChecker;
+use Oskonnikov\EmailChecker\Facades\EmailChecker;
 
 class EmailCheckerTest extends TestCase
 {

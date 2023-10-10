@@ -1,9 +1,9 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker\Tests\Rules;
+namespace Oskonnikov\EmailChecker\Tests\Rules;
 
-use Tintnaingwin\EmailChecker\Rules\EmailExist;
-use Tintnaingwin\EmailChecker\Tests\TestCase;
+use Oskonnikov\EmailChecker\Rules\EmailExist;
+use Oskonnikov\EmailChecker\Tests\TestCase;
 
 class EmailExistTest extends TestCase
 {

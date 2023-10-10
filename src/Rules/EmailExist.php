@@ -1,9 +1,9 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker\Rules;
+namespace Oskonnikov\EmailChecker\Rules;
 
 use Illuminate\Contracts\Validation\Rule;
-use Tintnaingwin\EmailChecker\Facades\EmailChecker;
+use Oskonnikov\EmailChecker\Facades\EmailChecker;
 
 class EmailExist implements Rule
 {

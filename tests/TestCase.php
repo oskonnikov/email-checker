@@ -1,8 +1,8 @@
 <?php
 
-namespace Tintnaingwin\EmailChecker\Tests;
+namespace Oskonnikov\EmailChecker\Tests;
 
-use Tintnaingwin\EmailChecker\EmailCheckerServiceProvider;
+use Oskonnikov\EmailChecker\EmailCheckerServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

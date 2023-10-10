@@ -9,7 +9,7 @@
 You can install the package via composer:
 
 ```
-composer require tintnaingwin/email-checker
+composer require oskonnikov/email-checker
 ```
 The package will automatically register itself.
 
@@ -18,7 +18,7 @@ The package will automatically register itself.
 If you wish to edit the package translations, you can run the following command to publish them into your `resources/lang` folder
 
 ```bash
-php artisan vendor:publish --provider="Tintnaingwin\EmailChecker\EmailCheckerServiceProvider"
+php artisan vendor:publish --provider="Oskonnikov\EmailChecker\EmailCheckerServiceProvider"
 ```
 
 ### Features
@@ -62,7 +62,7 @@ To add 'email_checker' at email attribute
 ### `Using Rule Objects`
 
 ```php
-    use TintNaingWin\EmailChecker\Rules\EmailExist;
+    use Oskonnikov\EmailChecker\Rules\EmailExist;
 
     $request->validate([
         'email' => ['required', 'string', 'email', 'max:255', 'unique:users', new EmailExist],
@@ -98,10 +98,10 @@ If you discover any security-related issues, please email amigo.k8@gmail.com ins
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
 
 
-[ico-version]: https://img.shields.io/packagist/v/tintnaingwin/email-checker.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/oskonnikov/email-checker.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/tintnaingwin/email-checker.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/oskonnikov/email-checker.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/tintnaingwin/email-checker
-[link-downloads]: https://packagist.org/packages/tintnaingwin/email-checker
-[link-author]: https://github.com/tintnaingwinn
+[link-packagist]: https://packagist.org/packages/oskonnikov/email-checker
+[link-downloads]: https://packagist.org/packages/oskonnikov/email-checker
+[link-author]: https://github.com/oskonnikovn

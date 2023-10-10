@@ -9,7 +9,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 - Added Validation Rule Object
 
 ### Changes
-- The EmailChecker.php have been moved to the new tintnaingwin/email-checker-php package.
+- The EmailChecker.php have been moved to the new oskonnikov/email-checker-php package.
 
 ### Refactoring
 - Code refactoring
